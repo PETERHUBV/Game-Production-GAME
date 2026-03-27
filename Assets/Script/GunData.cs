@@ -1,8 +1,10 @@
 using UnityEngine;
 
-public class PlayerData : MonoBehaviour
+public class GunData : MonoBehaviour
 {
-    public int Money = 10;
+
+    public Gun type;
+    public Sprite icon;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -14,11 +16,4 @@ public class PlayerData : MonoBehaviour
     {
         
     }
-
-
-public void AddMoney(int amount)
-{
-    Money += amount;
-    Debug.Log("Money: " + Money);
-}
 }

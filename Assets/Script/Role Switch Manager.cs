@@ -31,5 +31,6 @@ public class RoleSwitchManager : MonoBehaviour
             player.SetRole(Roles.Guard);
             worker.SetRole(Roles.Dealer);
         }
+        Debug.Log("ROLE SWITCHED");
     }
 }
